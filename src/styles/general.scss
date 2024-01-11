@@ -1,9 +1,25 @@
 @use './partials/variables';
 
-@import 'node_modules/bootstrap/scss/bootstrap';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: orange;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
